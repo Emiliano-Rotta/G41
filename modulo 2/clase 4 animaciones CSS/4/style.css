@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .text {
+    font-size: 3em;
+    animation: move 2s infinite;
+    /* luegi agregar */ animation-direction: alternate;
+   }
+   
+   @keyframes move {
+    from {
+    transform: translateX(0);
+    background-color: #0079a1;
+    }
+    to {
+    transform: translateX(200px);
+    background-color: orange;
+    }
+   }
+   
+   

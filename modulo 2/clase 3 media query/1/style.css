@@ -1,0 +1,20 @@
+/* empezar con un fondo negro y despues mostrar como se pisa un si lo pones abajo o no.. */
+
+@media (max-width: 576px) { 
+    body {
+        background-color: aqua;
+    }
+}
+
+
+@media (min-width: 576px) { 
+    body {
+        background-color: red;
+    }
+}
+
+@media (min-width: 1000px) { 
+    body {
+        background-color: black;
+    }
+    }

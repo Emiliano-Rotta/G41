@@ -1,0 +1,20 @@
+.Home {
+    display: flex;
+}
+
+.Lista {
+    margin: 20px;
+    border: 2px solid red;
+    padding: 20px;
+}
+
+.Pelicula {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 5px;
+  }
+
+  .PeliculasImg {
+    width: 40px;
+}

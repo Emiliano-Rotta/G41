@@ -1,0 +1,38 @@
+button {
+    background-color: #0077FF;
+    color: white;
+    /* width: 100px; */
+    padding: 10px 20px;
+    font-size: 16px;
+    /* border: none; */
+    border-radius: 5px;
+    transition: background-color 0.3s linear 2s;
+    }
+   
+    button:hover {
+    background-color: rgb(255, 140, 0);
+    /* width: 200px; */
+
+    }
+   
+    /* luego hacer que pase descpacio, de chica a grande lento dcomo lo harian ustedes?? */
+
+
+    /* esto va despues */
+/* 
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        transition: all 1s;
+        }
+        .box:hover {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+       } */
+
+
+       /* luego de la diapo 21 a 25 copiar y pegar y ver que pasa */
+       /* Dar el ejercicio, tomar listta y decir a que hora volvemos */
+       

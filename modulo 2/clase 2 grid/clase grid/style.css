@@ -1,0 +1,31 @@
+body{
+    background-color: gray;
+    display: grid;
+    grid-template-rows: 200px 100px 50px;
+    grid-template-areas: 
+   "header header header"
+   "sidebar  main main"
+   "footer footer footer"
+
+}
+
+.box{
+    border: solid 2px black;
+    margin: 10px;
+
+}
+.header{
+    grid-area: header;
+}
+
+.sidebar{
+    grid-area: sidebar;
+
+}
+.main{
+    grid-area: main;
+
+}
+.footer{
+    grid-area: footer;
+}

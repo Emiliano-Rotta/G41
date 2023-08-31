@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    font-family: 'Roboto',
+   sans-serif;
+    }
+    .hero {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 900px;
+    background-image:
+    url("https://canalshowsport.com.ar/wp-content/uploads/2021/06/casa.png");
+    background-size: cover;
+    }
+   
+.content {
+    font-size: 1.4em;
+    font-stretch: expanded;
+    height: 8em;
+    width: 100%;
+    padding: 1em 8em;
+    background-color:
+    rgba(15,15,15, 0.6);
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px #000;
+    }
+       

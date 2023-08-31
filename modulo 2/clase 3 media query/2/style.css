@@ -1,0 +1,24 @@
+p {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin: 10px;    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+
+/*2paso*/
+@media (min-width: 576px) {
+    .grid {grid-template-columns: 1fr 1fr}
+}
+
+@media (min-width: 768px) {
+    .grid {grid-template-columns: 1fr 1fr 1fr 1fr}
+}
+
+
+
+

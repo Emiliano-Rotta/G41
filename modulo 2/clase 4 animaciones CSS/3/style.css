@@ -1,0 +1,18 @@
+.box {
+    width: 100px;
+    height: 100px;
+    animation-name: colorear;
+    animation-iteration-count:infinite;
+    animation-duration: 2s;
+    /* Se aplica la animación
+   "example" a la caja */
+   }
+   @keyframes colorear {
+    from {
+    background-color: #0079a1;
+    }
+    to {
+    background-color: orange;
+    }
+   }
+   

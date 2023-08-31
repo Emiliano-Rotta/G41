@@ -1,0 +1,34 @@
+body, menu{
+    margin: 0;
+}
+menu {
+    background-color:black;
+    width: 10em;
+     /* esto es lo nuevo */
+    min-height: 100vh
+}
+menu ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+    flex-direction: column;
+}
+
+menu li{
+    padding: 1em;
+    list-style: none;
+}
+menu a{
+    text-decoration: none;
+    color: white;
+    color: rgba(255, 255, 255, 0.6);
+}
+menu a:hover{
+    color: white;
+}
+
+    /* esto es lo nuevo */
+header{
+    display: flex;
+}

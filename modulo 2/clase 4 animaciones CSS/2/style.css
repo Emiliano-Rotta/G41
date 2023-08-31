@@ -1,0 +1,14 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    /* transform: rotate(45deg) scale(1.5) ; */
+    
+   }
+   
+   .box:hover{
+    transform: matrix(5, 200, -10, 10, 80, 80)  ;
+   }
+       
+
+   /* translate(200px) translateX(200px) translateY(20px) skew(10deg) */
